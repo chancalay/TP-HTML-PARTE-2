@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario UCSE</title>
+</head>
+<body>
+    <h1>ENCUESTA CAMPUS VIRTUAL</h1>
+
+    <form action="" method="GET">
+
+            <p>    
+            <label for="name">NOMBRE: </label>
+            <input type="text" name="nombre" maxlength="50"/> 
+            </p>
+
+            <label for="DEPARTAMENTO">DEPARTAMENTO: </label>
+            <select name="DEPARTAMENTO">
+            <option value="FCS">Fac. Ciencias de la Salud</option>
+            <option value="FID">Fac. Innovacion y Desarrollo</option>
+            <option value="FCE">Fac. Ciencias Económicas</option>
+           
+          
+            </select>
+
+            <p>
+
+            <strong><label for="SEDE">SEDE: </label></strong>
+            <select name="SEDE">
+            <option value="sgo">Santiago del Estero</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="rafaela">Rafaela</option>
+            <option value="bsas">Buenos Aires</option>
+           
+          
+            </select>
+            </p>
+
+            <p>
+                <label for="email">E-MAIL: </label>
+                <input type="text" email="email" maxlength="50"/> 
+
+            </p>
+
+            <p>
+                <label for="telefono">TELÉFONO: </label>
+                <input type="text" telefono="telefono" maxlength="50"/> 
+
+            </p>
+
+            <p>
+                <label for="utiliza">¿Utiliza habitualmente el campus virtual?:</label>
+                <input type="radio" name="utiliza" value="s"/> Si
+                <input type="radio" name="utiliza" value="n"/> No
+            </p>
+
+            <p>
+                <label for="info">¿Estaría interesado/a en recibir formación personalizada de esta herramiento informática?:</label>
+                <input type="radio" name="info" value="s"/> Si
+                <input type="radio" name="info" value="n"/> No
+            </p>
+
+            <h2>CALENDARIO APROXIMADO DE FORMACIÓN</h2>
+
+                <p>
+                TURNO PREFERENTE:   Mañana<input type="checkbox" name="info" checked="checked"/> Tarde<input type="checkbox" name="info" checked="checked"/> 
+                <p>
+
+                    <p>
+
+                        <label for="mes">MES PREFERENTE: </label>
+                        <select name="mes">
+                        <option value="E">Enero</option>
+                        <option value="F">Febrero</option>
+                        <option value="M">Marzo</option>
+                        <option value="A">Abril</option>
+                        <option value="M">Mayo</option>
+                        <option value="J">Junio</option>
+                        <option value="J">Julio</option>
+                        <option value="A">Agosto</option>
+                        <option value="S">Septiembre</option>
+                        <option value="O">Octubre</option>
+                        <option value="N">Noviembre</option>
+                        <option value="D">Diciembre</option>
+                        
+                       
+                      
+                        </select>
+                        </p>
+
+                        <p>
+
+                            <label for="horario">HORARIO PREFERENTE: </label>
+                            <select name="horario">
+                            <option value="9">09:00</option>
+                            <option value="15">15:00</option>
+                            <option value="18">18:00</option>
+                            <option value="21">21:00</option>
+                           
+                          
+                            </select>
+                            </p>
+
+                            <b><label for="comentarios">Comentarios: </label></b>
+                            <p>
+                            <textarea rows="10" cols="50"></textarea>
+                            </p>      
+                            
+                            <p>
+                                <input type="submit" value="Enviar"/>
+                                <input type="reset" value="Borrar"/>
+                                </p>           
+        
+            
+
+
+
+
+    </form>
+</body>
+</html>
